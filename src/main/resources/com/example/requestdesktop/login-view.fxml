@@ -10,19 +10,19 @@
 
 <AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="339.0" prefWidth="346.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.requestdesktop.LoginController">
    <children>
-      <Text layoutX="88.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Авторизация">
+      <Text fill="RED" layoutX="88.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Авторизация">
          <font>
             <Font name="Calibri Bold" size="30.0" />
          </font>
       </Text>
       <TextField fx:id="loginTextField" layoutX="88.0" layoutY="100.0" prefHeight="35.0" prefWidth="170.0" promptText="Введите логин" />
       <PasswordField fx:id="passwordTextField" layoutX="87.0" layoutY="161.0" prefHeight="35.0" prefWidth="170.0" promptText="Введите пароль" />
-      <Button fx:id="btnLogin" layoutX="87.0" layoutY="233.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="170.0" text="Войти">
+      <Button fx:id="btnLogin" layoutX="87.0" layoutY="233.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="170.0" style="-fx-background-color: #f00;" text="Войти" textFill="WHITE">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="btnRegister" layoutX="87.0" layoutY="288.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="170.0" text="Регистрация">
+      <Button fx:id="btnRegister" layoutX="87.0" layoutY="288.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="170.0" style="-fx-background-color: #f00;" text="Регистрация" textFill="WHITE">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
